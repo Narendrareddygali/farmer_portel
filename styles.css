@@ -1,0 +1,23 @@
+/* Additional custom styles if needed */
+@media (max-width: 640px) {
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+/* Animation for form elements */
+input, select {
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Print styles */
+@media print {
+    body {
+        background: white;
+    }
+    
+    .no-print {
+        display: none;
+    }
+}
